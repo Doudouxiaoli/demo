@@ -1,12 +1,12 @@
 // ======================================
 // Project Name:meddb-starter
-// Package Name:com.wx.common.log.type
+// Package Name:com.example.common.log.type
 // File Name:CommonLog.java
 // Create Date:2019年10月17日  14:26
 // ======================================
 package com.example.common.log.type;
 
-import com.wx.common.log.ILog;
+import com.example.common.log.ILog;
 
 /**
  * 通用日志类

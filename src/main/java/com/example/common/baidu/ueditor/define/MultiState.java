@@ -1,6 +1,6 @@
 package com.example.common.baidu.ueditor.define;
 
-import com.wx.common.baidu.ueditor.Encoder;
+import com.example.common.baidu.ueditor.Encoder;
 
 import java.util.*;
 

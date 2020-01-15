@@ -12,7 +12,7 @@ public class RC4Util {
 	
 	public static final int KEY_LENGTH = 8;
 	
-	public static String SUFFIX = "@#kingyee#@";
+	public static String SUFFIX = "@#demo#@";
 
 	/**
 	 * 数据转化 byte-hex

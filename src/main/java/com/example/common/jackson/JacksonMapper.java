@@ -1,6 +1,6 @@
 // ======================================
 // Project Name:ceog
-// Package Name:com.wx.no_five_row_six.common.jackson
+// Package Name:com.example.demo.common.jackson
 // File Name:JacksonMapper.java
 // Create Date:2018年02月07日  15:29
 // ======================================
@@ -9,7 +9,7 @@ package com.example.common.jackson;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.wx.common.modal.IJson;
+import com.example.common.modal.IJson;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

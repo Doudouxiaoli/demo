@@ -24,6 +24,7 @@ public class MysqlGenerator {
         gc.setOutputDir(projectPath + "/src/main/java");
         gc.setOpen(false);
         gc.setControllerName(null);
+        gc.setAuthor("dxl");
 //        gc.setMapperName("%sDao");
 //        gc.setFileOverride(true);
         mpg.setGlobalConfig(gc);

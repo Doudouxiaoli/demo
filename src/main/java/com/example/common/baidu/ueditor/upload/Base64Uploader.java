@@ -1,10 +1,10 @@
 package com.example.common.baidu.ueditor.upload;
 
-import com.wx.common.baidu.ueditor.PathFormat;
-import com.wx.common.baidu.ueditor.define.AppInfo;
-import com.wx.common.baidu.ueditor.define.BaseState;
-import com.wx.common.baidu.ueditor.define.FileType;
-import com.wx.common.baidu.ueditor.define.State;
+import com.example.common.baidu.ueditor.PathFormat;
+import com.example.common.baidu.ueditor.define.AppInfo;
+import com.example.common.baidu.ueditor.define.BaseState;
+import com.example.common.baidu.ueditor.define.FileType;
+import com.example.common.baidu.ueditor.define.State;
 import org.apache.commons.codec.binary.Base64;
 
 import java.util.Map;

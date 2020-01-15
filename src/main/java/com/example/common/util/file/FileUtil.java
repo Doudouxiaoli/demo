@@ -1,7 +1,7 @@
 package com.example.common.util.file;
 
-import com.wx.common.spring.mvc.WebUtil;
-import com.wx.common.util.TimeUtil;
+import com.example.common.spring.mvc.WebUtil;
+import com.example.common.util.TimeUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.multipart.MultipartFile;

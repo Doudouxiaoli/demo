@@ -4,9 +4,7 @@
  * 时间工具类.
  */
 package com.example.common.util;
-
 import org.apache.commons.lang3.StringUtils;
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

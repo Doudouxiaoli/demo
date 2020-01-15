@@ -19,7 +19,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @ComponentScan("com.example.common.spring")
 @ComponentScan("com.example.common.baidu")
 @ComponentScan("com.example.demo")
-@MapperScan("com.wx.no_five_row_six.mapper")
+@MapperScan("com.example.demo.mapper")
 @EnableConfigurationProperties({SystemConfig.class, EmailConfig.class, WinxinConfig.class})
 @EnableScheduling
 @SpringBootApplication

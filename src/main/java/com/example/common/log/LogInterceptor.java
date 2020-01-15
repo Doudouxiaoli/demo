@@ -1,6 +1,6 @@
 // ======================================
 // Project Name:meddb-starter
-// Package Name:com.wx.no_five_row_six.common.log
+// Package Name:com.example.demo.common.log
 // File Name:LogInterceptor.java
 // Create Date:2019年10月17日  14:35
 // ======================================

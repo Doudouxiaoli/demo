@@ -1,8 +1,8 @@
 package com.example.common.baidu.ueditor;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.wx.common.baidu.ueditor.define.ActionMap;
-import com.wx.common.jackson.JacksonMapper;
+import com.example.common.baidu.ueditor.define.ActionMap;
+import com.example.common.jackson.JacksonMapper;
 
 import java.io.*;
 import java.util.HashMap;

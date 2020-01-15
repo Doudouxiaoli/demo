@@ -1,14 +1,14 @@
 // ======================================
 // Project Name:xqhb
-// Package Name:com.wx.xqhb.common.excel
+// Package Name:com.example.xqhb.common.excel
 // File Name:ExcelUtils.java
 // Create Date:2018年04月09日  17:19
 // ======================================
 package com.example.common.excel;
 
-import com.wx.common.spring.mvc.WebUtil;
-import org.apache.poi.ss.usermodel.*;
+import com.example.common.spring.mvc.WebUtil;
 import org.apache.poi.ss.usermodel.Font;
+import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.streaming.SXSSFSheet;
 import org.apache.poi.xssf.streaming.SXSSFWorkbook;
 import org.apache.poi.xssf.usermodel.XSSFCellStyle;
@@ -16,7 +16,7 @@ import org.apache.poi.xssf.usermodel.XSSFColor;
 import org.apache.poi.xssf.usermodel.extensions.XSSFCellBorder;
 
 import javax.servlet.http.HttpServletResponse;
-import java.awt.*;
+import java.awt.Color;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStream;
@@ -44,7 +44,7 @@ public class BigExcelUtils {
             if (null == sheetName) {
                 sheetName = "Sheet1";
             }
-            SXSSFSheet sheet = (SXSSFSheet)wb.createSheet(sheetName);
+            SXSSFSheet sheet = (SXSSFSheet) wb.createSheet(sheetName);
             writeExcel(wb, sheet, data);
 
             wb.write(out);
@@ -78,7 +78,7 @@ public class BigExcelUtils {
                 if (null == sheetName) {
                     sheetName = "Sheet1";
                 }
-                SXSSFSheet sheet = (SXSSFSheet)wb.createSheet(sheetName);
+                SXSSFSheet sheet = (SXSSFSheet) wb.createSheet(sheetName);
                 writeExcel(wb, sheet, data);
             }
             wb.write(out);
@@ -103,7 +103,7 @@ public class BigExcelUtils {
         try {
             String basePath = WebUtil.getRealPath("/") + "upload/email";
             File file = new File(basePath);
-            if (!file.exists()){
+            if (!file.exists()) {
                 file.mkdirs();
             }
             out = new FileOutputStream(basePath + File.separator + fileName);
@@ -111,7 +111,7 @@ public class BigExcelUtils {
             if (null == sheetName) {
                 sheetName = "Sheet1";
             }
-            SXSSFSheet sheet = (SXSSFSheet)wb.createSheet(sheetName);
+            SXSSFSheet sheet = (SXSSFSheet) wb.createSheet(sheetName);
             writeExcel(wb, sheet, data);
             wb.write(out);
         } catch (Exception e) {
@@ -142,7 +142,7 @@ public class BigExcelUtils {
         // titleFont.setFontHeightInPoints((short) 14);
         titleFont.setColor(IndexedColors.BLACK.index);
 
-        XSSFCellStyle titleStyle = (XSSFCellStyle)wb.createCellStyle();
+        XSSFCellStyle titleStyle = (XSSFCellStyle) wb.createCellStyle();
         titleStyle.setAlignment(HorizontalAlignment.CENTER);
         titleStyle.setVerticalAlignment(VerticalAlignment.CENTER);
 
@@ -174,7 +174,7 @@ public class BigExcelUtils {
         // dataFont.setFontHeightInPoints((short) 14);
         dataFont.setColor(IndexedColors.BLACK.index);
 
-        XSSFCellStyle dataStyle = (XSSFCellStyle)wb.createCellStyle();
+        XSSFCellStyle dataStyle = (XSSFCellStyle) wb.createCellStyle();
         dataStyle.setAlignment(HorizontalAlignment.CENTER);
         dataStyle.setVerticalAlignment(VerticalAlignment.CENTER);
         dataStyle.setFont(dataFont);
@@ -187,19 +187,19 @@ public class BigExcelUtils {
 
             for (Object cellData : rowData) {
                 Cell cell = dataRow.createCell(colIndex);
-				if (cellData != null) {
-					if(cellData instanceof Double){
-						cell.setCellValue((Double) cellData);
-					}else if(cellData instanceof Integer){
-						cell.setCellValue((Integer) cellData);
-					}else if(cellData instanceof Long){
-						cell.setCellValue((Long) cellData);
-					}else{
-						cell.setCellValue(cellData.toString());
-					}
-				} else {
-					cell.setCellValue("");
-				}
+                if (cellData != null) {
+                    if (cellData instanceof Double) {
+                        cell.setCellValue((Double) cellData);
+                    } else if (cellData instanceof Integer) {
+                        cell.setCellValue((Integer) cellData);
+                    } else if (cellData instanceof Long) {
+                        cell.setCellValue((Long) cellData);
+                    } else {
+                        cell.setCellValue(cellData.toString());
+                    }
+                } else {
+                    cell.setCellValue("");
+                }
 
                 cell.setCellStyle(dataStyle);
                 colIndex++;
@@ -210,7 +210,7 @@ public class BigExcelUtils {
     }
 
     private static void autoSizeColumns(Sheet sheet, int columnNumber) {
-        ((SXSSFSheet)sheet).trackAllColumnsForAutoSizing();
+        ((SXSSFSheet) sheet).trackAllColumnsForAutoSizing();
         for (int i = 0; i < columnNumber; i++) {
             int orgWidth = sheet.getColumnWidth(i);
             sheet.autoSizeColumn(i, true);

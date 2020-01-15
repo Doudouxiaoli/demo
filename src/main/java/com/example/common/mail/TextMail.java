@@ -1,7 +1,7 @@
 package com.example.common.mail;
 
 import com.sun.mail.smtp.SMTPAddressFailedException;
-import com.wx.common.util.TimeUtil;
+import com.example.common.util.TimeUtil;
 
 import javax.mail.MessagingException;
 import javax.mail.SendFailedException;

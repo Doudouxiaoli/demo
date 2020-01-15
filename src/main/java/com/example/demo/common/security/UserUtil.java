@@ -1,6 +1,6 @@
 package com.example.demo.common.security;
 
-//import com.wx.no_five_row_six.entity.GioUser;
+//import com.example.demo.entity.GioUser;
 
 public class UserUtil {
 

@@ -1,11 +1,11 @@
 package com.example.common.baidu.ueditor.upload;
 
-import com.wx.common.baidu.ueditor.PathFormat;
-import com.wx.common.baidu.ueditor.define.AppInfo;
-import com.wx.common.baidu.ueditor.define.BaseState;
-import com.wx.common.baidu.ueditor.define.FileType;
-import com.wx.common.baidu.ueditor.define.State;
-import com.wx.common.spring.mvc.WebUtil;
+import com.example.common.baidu.ueditor.PathFormat;
+import com.example.common.baidu.ueditor.define.AppInfo;
+import com.example.common.baidu.ueditor.define.BaseState;
+import com.example.common.baidu.ueditor.define.FileType;
+import com.example.common.baidu.ueditor.define.State;
+import com.example.common.spring.mvc.WebUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.multipart.MultipartFile;

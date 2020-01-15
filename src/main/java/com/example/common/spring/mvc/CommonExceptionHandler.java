@@ -1,8 +1,8 @@
 package com.example.common.spring.mvc;
 
 import com.fasterxml.jackson.databind.JsonNode;
-import com.wx.common.jackson.JacksonMapper;
-import com.wx.common.util.http.HttpUtil;
+import com.example.common.jackson.JacksonMapper;
+import com.example.common.util.http.HttpUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.ControllerAdvice;

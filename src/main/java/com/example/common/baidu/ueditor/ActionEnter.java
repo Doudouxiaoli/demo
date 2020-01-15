@@ -1,12 +1,12 @@
 package com.example.common.baidu.ueditor;
 
-import com.wx.common.baidu.ueditor.define.ActionMap;
-import com.wx.common.baidu.ueditor.define.AppInfo;
-import com.wx.common.baidu.ueditor.define.BaseState;
-import com.wx.common.baidu.ueditor.define.State;
-import com.wx.common.baidu.ueditor.hunter.FileManager;
-import com.wx.common.baidu.ueditor.hunter.ImageHunter;
-import com.wx.common.baidu.ueditor.upload.Uploader;
+import com.example.common.baidu.ueditor.define.ActionMap;
+import com.example.common.baidu.ueditor.define.AppInfo;
+import com.example.common.baidu.ueditor.define.BaseState;
+import com.example.common.baidu.ueditor.define.State;
+import com.example.common.baidu.ueditor.hunter.FileManager;
+import com.example.common.baidu.ueditor.hunter.ImageHunter;
+import com.example.common.baidu.ueditor.upload.Uploader;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Map;

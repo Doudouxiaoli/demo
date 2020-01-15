@@ -1,6 +1,6 @@
 // ======================================
 // Project Name:gipap
-// Package Name:com.wx.common.excel
+// Package Name:com.example.common.excel
 // File Name:ExcelMethodParameter.java
 // Create Date:2019年03月21日  21:20
 // ======================================

@@ -1,8 +1,8 @@
 package com.example.common.baidu.ueditor.hunter;
 
-import com.wx.common.baidu.ueditor.PathFormat;
-import com.wx.common.baidu.ueditor.define.*;
-import com.wx.common.baidu.ueditor.upload.StorageManager;
+import com.example.common.baidu.ueditor.PathFormat;
+import com.example.common.baidu.ueditor.define.*;
+import com.example.common.baidu.ueditor.upload.StorageManager;
 
 import java.net.HttpURLConnection;
 import java.net.InetAddress;

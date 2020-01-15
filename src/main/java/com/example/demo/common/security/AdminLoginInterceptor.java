@@ -1,6 +1,6 @@
 // ======================================
 // Project Name:ssm
-// Package Name:com.wx.no_five_row_six.gio_college.common.security
+// Package Name:com.example.demo.common.security
 // File Name:LoginInterceptor.java
 // Create Date:2019年10月24日  11:13
 // ======================================

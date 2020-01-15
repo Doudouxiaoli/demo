@@ -1,8 +1,8 @@
 package com.example.common.baidu.ueditor.upload;
 
-import com.wx.common.baidu.ueditor.define.AppInfo;
-import com.wx.common.baidu.ueditor.define.BaseState;
-import com.wx.common.baidu.ueditor.define.State;
+import com.example.common.baidu.ueditor.define.AppInfo;
+import com.example.common.baidu.ueditor.define.BaseState;
+import com.example.common.baidu.ueditor.define.State;
 import org.apache.commons.io.FileUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

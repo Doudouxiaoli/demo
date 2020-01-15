@@ -1,6 +1,6 @@
 // ======================================
 // Project Name:meddb-starter
-// Package Name:com.wx.no_five_row_six
+// Package Name:com.example.demo
 // File Name:SystemConfig.java
 // Create Date:2019年10月16日  15:54
 // ======================================

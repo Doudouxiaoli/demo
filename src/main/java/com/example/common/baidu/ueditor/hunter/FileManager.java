@@ -1,10 +1,10 @@
 package com.example.common.baidu.ueditor.hunter;
 
-import com.wx.common.baidu.ueditor.PathFormat;
-import com.wx.common.baidu.ueditor.define.AppInfo;
-import com.wx.common.baidu.ueditor.define.BaseState;
-import com.wx.common.baidu.ueditor.define.MultiState;
-import com.wx.common.baidu.ueditor.define.State;
+import com.example.common.baidu.ueditor.PathFormat;
+import com.example.common.baidu.ueditor.define.AppInfo;
+import com.example.common.baidu.ueditor.define.BaseState;
+import com.example.common.baidu.ueditor.define.MultiState;
+import com.example.common.baidu.ueditor.define.State;
 import org.apache.commons.io.FileUtils;
 
 import java.io.File;
