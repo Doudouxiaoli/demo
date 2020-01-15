@@ -12,7 +12,7 @@
     <appender name="ROLLING"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>logs/gio_college-%d{yyyy-MM-dd}.log
+            <fileNamePattern>logs/demo-%d{yyyy-MM-dd}.log
             </fileNamePattern>
         </rollingPolicy>
         <encoder>
