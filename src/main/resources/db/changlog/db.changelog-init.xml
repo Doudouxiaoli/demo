@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+         http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd">
+    <changeSet id="V1.0.0" author="dxl">
+
+        <comment>数据库初始化</comment>
+
+
+        <createTable tableName="admin_user" remarks="管理员表">
+            <column name="id" type="bigint" autoIncrement="true" remarks="主键">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="login_name" type="varchar(128)" remarks="用户名"/>
+            <column name="password" type="varchar(128)" remarks="密码"/>
+            <column name="create_time" type="bigint(20)" remarks="创建时间"/>
+            <column name="update_time" type="bigint(20)" remarks="修改时间"/>
+        </createTable>
+
+        <insert tableName="admin_user">
+            <column name="id" valueNumeric="1"/>
+            <column name="login_name" value="admin"/>
+            <column name="password" value="6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"/>
+        </insert>
+
+        <createTable tableName="x_user" remarks="用户表">
+            <column name="x_id" type="bigint" autoIncrement="true" remarks="主键">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+            <column name="x_name" type="varchar(128)" remarks="登录名"/>
+            <column name="x_password" type="varchar(128)" remarks="密码"/>
+            <column name="x_create_time" type="bigint(20)" remarks="创建时间"/>
+            <column name="x_update_time" type="bigint(20)" remarks="修改时间"/>
+        </createTable>
+    </changeSet>
+</databaseChangeLog>
