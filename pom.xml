@@ -21,7 +21,7 @@
         <jfinal.enjoy.version>4.6</jfinal.enjoy.version>
         <commons-lang3.version>3.9</commons-lang3.version>
         <weixin-java-mp.version>3.5.0</weixin-java-mp.version>
-        <poi.version>4.1.0</poi.version>
+        <poi.version>4.1.1</poi.version>
     </properties>
 
     <dependencies>
